@@ -60,6 +60,9 @@ public class StringBasics {
 	   System.out.println(str.contains("ava")); //true >> as "DSA With Java"; contains >>"ava"
 	   System.out.println(str.contains("all")); //false >> as "DSA With Java"; does not contains >>"all"
 	   
+	   //startsWith()>> will return if a string starts with given string
+	   System.out.println(str.startsWith("DS")); //true >> as "DSA With Java"; startsWith >>"DS"
+	   System.out.println(str.startsWith("MS")); //flase >> as "DSA With Java"; does not startsWith >>"MS"
     
 
 }
