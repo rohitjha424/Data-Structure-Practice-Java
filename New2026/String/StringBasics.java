@@ -16,8 +16,14 @@ public class StringBasics {
         // }
 
          //String
-        String str = "DSA With Java";
-        System.out.println(str);
+        // String str = "DSA With Java";
+        // System.out.println(str);
+
+        // Taking String Input from user
+        
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next(); // will take only one word input>>ignore everything after 1st Space
+        System.out.println(s);  // I/P" Rohit Jha" >> O/P : "Rohit"
 
 
     }
