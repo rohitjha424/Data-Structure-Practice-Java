@@ -1,4 +1,4 @@
-package New2026.String;
+
 import java.util.*;
 public class StringBasics {
 
