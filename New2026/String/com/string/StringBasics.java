@@ -38,6 +38,9 @@ public class StringBasics {
 	   int strSize  = str.length();
 	   System.out.println(strSize);
 	   
+	   //charAt()
+	   char ch = str.charAt(5);
+	   System.out.println(ch); // will print character at the index from string
     
     
     
