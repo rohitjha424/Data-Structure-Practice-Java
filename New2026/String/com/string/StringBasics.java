@@ -41,8 +41,10 @@ public class StringBasics {
 	   //charAt()
 	   char ch = str.charAt(5);
 	   System.out.println(ch); // will print character at the index from string
-    
-    
+	   
+	   //indexOf() >> returns the index of first occurance of the character from string
+	   int idx = str.indexOf('a');
+	   System.out.println(idx);
     
 
 }
