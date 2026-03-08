@@ -55,6 +55,11 @@ public class StringBasics {
 	   System.out.println(str1.compareTo(str3)); // str1<str2>>>will return -1
 	   System.out.println(str4.compareTo(str3)); // str4>str3>>>will return 1
 	   
+	   
+	   //contains() >> will print true of it contains same string >>will return false if not
+	   System.out.println(str.contains("ava")); //true >> as "DSA With Java"; contains >>"ava"
+	   System.out.println(str.contains("all")); //false >> as "DSA With Java"; does not contains >>"all"
+	   
     
 
 }
