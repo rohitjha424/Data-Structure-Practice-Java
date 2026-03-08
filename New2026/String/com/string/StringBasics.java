@@ -63,6 +63,10 @@ public class StringBasics {
 	   //startsWith()>> will return if a string starts with given string
 	   System.out.println(str.startsWith("DS")); //true >> as "DSA With Java"; startsWith >>"DS"
 	   System.out.println(str.startsWith("MS")); //flase >> as "DSA With Java"; does not startsWith >>"MS"
+	   
+	 //endsWith()>> will return if a string ends with given string
+	   System.out.println(str.endsWith("ava")); //true >> as "DSA With Java"; endsWith >>"ava"
+	   System.out.println(str.endsWith("wor")); //flase >> as "DSA With Java"; does not endsWith >>"wor"
     
 
 }
