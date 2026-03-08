@@ -29,8 +29,16 @@ public class StringBasics {
     // System.out.println(str);  // O/P : "Rohit Jha"
     
     // String Initialization
-    String str = "DSA With Java";
-    System.out.println(str);
+	   String str = "DSA With Java";
+    // System.out.println(str);
+	
+	//Basic String Functions   
+	   
+	   //length()
+	   int strSize  = str.length();
+	   System.out.println(strSize);
+	   
+    
     
     
 
