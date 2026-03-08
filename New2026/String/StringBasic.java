@@ -1,6 +1,6 @@
-package New2026.String;
+// package New2026.String;
 import java.util.*;
-public class StringBasics {
+public class StringBasic {
 
     public static void main (String[] args){
         //character Array of size 5
@@ -15,7 +15,7 @@ public class StringBasics {
         //     System.out.println(c);
         // }
 
-         //String
+        //String
         String str = "DSA With Java";
         System.out.println(str);
 
