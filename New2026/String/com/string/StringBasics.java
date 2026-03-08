@@ -45,6 +45,16 @@ public class StringBasics {
 	   //indexOf() >> returns the index of first occurance of the character from string
 	   int idx = str.indexOf('a');
 	   System.out.println(idx);
+	   
+	   //compareTo() >> will compare the two strings, if exactly lexographically same >>will return 0>>if greater>>will return positive>>if less>>return negative
+	   String str1 = "abc";
+	   String str2 = "abc";
+	   String str3 = "bbc";
+	   String str4 = "cbc";
+	   System.out.println(str1.compareTo(str2)); // str1==str2>>will return 0
+	   System.out.println(str1.compareTo(str3)); // str1<str2>>>will return -1
+	   System.out.println(str4.compareTo(str3)); // str4>str3>>>will return 1
+	   
     
 
 }
