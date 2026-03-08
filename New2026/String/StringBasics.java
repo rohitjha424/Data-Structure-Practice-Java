@@ -25,9 +25,13 @@ public class StringBasics {
         // String s = sc.next(); // will take only one word input>>ignore everything after 1st Space
         // System.out.println(s);  // I/P" Rohit Jha" >> O/P : "Rohit"
 
-        Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine(); // will take input. e.g., : i/p: "Rohit Jha"
-        System.out.println(str);  // O/P : "Rohit Jha"
+        // Scanner sc = new Scanner(System.in);
+        // String str = sc.nextLine(); // will take input. e.g., : i/p: "Rohit Jha"
+        // System.out.println(str);  // O/P : "Rohit Jha"
+        
+        // String Initialization
+        String str = "DSA With Java";
+        System.out.println(str);
 
 
     }
