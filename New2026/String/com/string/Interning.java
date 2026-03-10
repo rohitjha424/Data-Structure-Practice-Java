@@ -16,6 +16,11 @@ public class Interning {
 		
 		String y = new String("Hello"); //will create a new String 
 		
+		
+		//immutability of Strings in Java
+		
+		//s.charAt(1) = 'D'; // >> will throw Error>> Strings characters cannot be modified
+		
 	}
 
 }
