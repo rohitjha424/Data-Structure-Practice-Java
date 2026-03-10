@@ -7,9 +7,11 @@ public class Interning {
 		String s = "Hello";
 		String x = "Hello"; 
 		
-		//Technically String s and x both are pointing to are String in Heap
+		//Technically String s and x both are pointing to are String in Heap >> called Interning
 		
 		x = "Mello"; // will create new String >>"Mello" and x will point to it
+		
+		
 		
 	}
 
