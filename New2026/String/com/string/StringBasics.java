@@ -72,6 +72,9 @@ public class StringBasics {
 	   System.out.println(str.toLowerCase());
 	   //toUpperCase()>> will convert all the alphabets of a string to UpperCase
 	   System.out.println(str.toUpperCase());
+	   
+	   //concat()>>will merge two strings together
+	   System.out.println(str1.concat(str2)); //str1 = "abc" and str2 = "abc">> result: "abcabc"
 
 }
 }
