@@ -9,9 +9,9 @@ public class String_equals {
 		String s2 = "Hello"; // will point exactly where s1 is pointing due to interning behavior
 		String s3 = new String("Hello"); // create new String with same characters as s1 and s2
 		
-		System.out.println(s1==s2); // will print true
+		System.out.println(s1==s2); // will print true >> as both pointing to same address
 		
-		System.out.println(s1==s3); // will print false >> as s3 is different String>> hence we need equals()
+		System.out.println(s1==s3); // will print false >> as s3 is different String (address)>> hence we need equals()
 		 
 		//equals()
 		
