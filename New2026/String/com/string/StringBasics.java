@@ -70,6 +70,8 @@ public class StringBasics {
        
 	   //toLowerCase()>> will convert all the alphabets of a string to LowerCase
 	   System.out.println(str.toLowerCase());
+	   //toUpperCase()>> will convert all the alphabets of a string to UpperCase
+	   System.out.println(str.toUpperCase());
 
 }
 }
