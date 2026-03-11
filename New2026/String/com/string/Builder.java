@@ -47,6 +47,13 @@ public class Builder {
 		System.out.println(sb); // will print reverse : "tihoR"
 		
 		
+		//delete(i,j)>> will delete the characters from i to j-1 indexes >> include i , exclude j>>till j-1
+		
+		str.delete(2, 6);   // str before deletion now : meHeyyllo >> will delete from 2 to 6-1=5 indexes
+		System.out.println(str); // will print  : "mello"
+		
+		
+		
 	}
 
 }
