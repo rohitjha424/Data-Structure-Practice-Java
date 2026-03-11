@@ -40,6 +40,12 @@ public class Builder {
 		System.out.println(str); // will print : meHeyyllo >> deleted 5 present at index 1
 		
 		
+		//reverse()
+		
+		StringBuilder sb = new StringBuilder("Rohit");
+		sb.reverse();
+		System.out.println(sb); // will print reverse : "tihoR"
+		
 		
 	}
 
