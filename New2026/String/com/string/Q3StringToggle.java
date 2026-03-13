@@ -16,6 +16,10 @@ public class Q3StringToggle {
 		for (int i = 0; i < str.length(); i++) {
 			boolean capFlag = true; // true for Capital
 			char ch = str.charAt(i); // getting Char At i
+			
+			if(ch==' ')
+			continue;
+			
 			int ascii = (int) ch; // finding Ascii value of Character
 			if (ascii >= 97) // smallCase
 				capFlag = false; // for smallCase Setting as False
