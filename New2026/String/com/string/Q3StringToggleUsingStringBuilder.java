@@ -4,7 +4,7 @@ package com.string;
 
 import java.util.*;
 
-public class Q3StringToggle {
+public class Q3StringToggleUsingStringBuilder {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
