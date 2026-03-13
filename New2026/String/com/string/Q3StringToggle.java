@@ -15,8 +15,8 @@ public class Q3StringToggle {
 			boolean capFlag = true;
 			char ch = str.charAt(i);
 			int ascii = (int)ch;
-			if(ascii>=65 && ascii<=90) {
-				capFlag = true;
+			if(ascii>=97) {
+				capFlag = false;
 				if(capFlag==true) {
 					ascii = ascii+32;
 					char c = (char)ascii;
