@@ -1,4 +1,4 @@
-//Toggle Uppercase to Lowercase and Vice versa for a given String. Example: PhysICS>> pHYSics
+//Toggle Uppercase to Lowercase and Vice versa for a given String using StringBuider. Example: PhysICS>> pHYSics
 
 package com.string;
 
