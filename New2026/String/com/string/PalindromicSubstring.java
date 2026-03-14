@@ -21,8 +21,18 @@ public class PalindromicSubstring {
 
 	public static void main(String[] args) {
 
-		String str = "abcdcba";
-		boolean isPalin = isPalindrome(str);
-		System.out.println(isPalin);
+		String str = "abcbd";
+		int count=0;
+
+		for (int i = 0; i < str.length(); i++) {
+			for (int j = i+1; j <= str.length(); j++) {
+				if(isPalindrome(str.substring(i,j))==true) {
+					System.out.println(str.substring(i,j) + " ");
+					count++;
+				}
+			}
+		}
+		System.out.println("Total Number of Palindromic Substring in given String is "+ count);
+		
 	}
 }
