@@ -4,6 +4,8 @@ public class Q4PalindromeString {
 
 	public static void main(String[] args) {
 		String str = "abcdcba";
+		
+		//using reverse() String Builder pre-built Method
 		StringBuilder gtr = new StringBuilder(str); // String to StringBuiler for using its functions
 		gtr.reverse(); // reversing String
 		String s = gtr+""; // adding empty String to StringBuilder will convert it back to String
