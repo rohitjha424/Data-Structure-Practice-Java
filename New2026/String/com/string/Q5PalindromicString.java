@@ -2,8 +2,7 @@ package com.string;
 
 import java.util.*;
 
-public class PalindromicSubstring {
-
+public class Q5PalindromicString {
 	// method to check ifPalindrome
 	public static boolean isPalindrome(String s) {
 		int i = 0;
@@ -22,17 +21,17 @@ public class PalindromicSubstring {
 	public static void main(String[] args) {
 
 		String str = "abcbd";
-		int count=0;
+		int count = 0;
 
 		for (int i = 0; i < str.length(); i++) {
-			for (int j = i+1; j <= str.length(); j++) {
-				if(isPalindrome(str.substring(i,j))==true) {
-					System.out.print(str.substring(i,j) + " ");
+			for (int j = i + 1; j <= str.length(); j++) {
+				if (isPalindrome(str.substring(i, j)) == true) {
+					System.out.print(str.substring(i, j) + " ");
 					count++;
 				}
 			}
 		}
-		System.out.println("\nTotal Number of Palindromic Substring in given String is "+ count);
-		
+		System.out.println("\nTotal Number of Palindromic Substring in given String is " + count);
+
 	}
 }
