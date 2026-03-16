@@ -6,13 +6,13 @@ public class Q6ReverseString {
 		String s = "physics";
 
         //As String doesn't have in built method reverse()>> hence converting it to StringBuilder
-		StringBuilder str = new StringBuilder(s);
+		StringBuilder sb = new StringBuilder(s);
 
 		// using in-built method >> reverse()
-		str.reverse();
+		sb.reverse();
 
         //converting StringBuilder back to String 
-        String result = str.toString();
+        String result = sb.toString();
         
 		System.out.println(result); // will print : "scisyhp"
 
