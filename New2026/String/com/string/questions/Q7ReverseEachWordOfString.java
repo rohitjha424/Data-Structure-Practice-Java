@@ -10,31 +10,29 @@ public class Q7ReverseEachWordOfString {
 
 	public static void main(String[] args) {
 
-		String str = "I am an Engineer ";
+		String str = "I am an Engineer";
 
-		// Approach >> take one word at a time store in SStringBuilder and reverse it
-		// and Store in Ans.
+		// Approach >> take one word at a time store in SStringBuilder and reverse it and Store in ans.
 
-		// keeping ans and String builder empty
-		String ans = "";
-		StringBuilder sb = new StringBuilder("");
-
+		// keeping ans String builder empty
+		StringBuilder ans = new StringBuilder();
+		
 		int i = 0;
-		for (int j = 0; j < str.length(); j++) {
-			//checking when Space (a word ends)
-			if (str.charAt(j) == ' ') {
-				sb = new StringBuilder(str.substring(i, j)); 	// taking that Word and Storing to SB
-				i = j + 1; 										// moving initial pointer to next word.
-				sb.reverse(); 									// reversing string builder word.
-				ans = ans + sb.toString() + " ";				//Storing reversed word to ans with Space
-				sb = new StringBuilder("");						//emptying SB.
+		for (int j = 0; j <= str.length(); j++) {
+			//checking if there is Space (a word ends) or String ends condition
+			if (j == str.length() || str.charAt(j) == ' ') {
+				StringBuilder sb = new StringBuilder(str.substring(i, j)); 	// taking that Word and Storing to SB
+				sb.reverse(); 												// reversing string builder word.
+				ans = ans.append(sb)	;									//Storing reversed word ans with append 
+				if (j != str.length()) {
+		             ans.append(" ");
+		           }
+				i = j + 1; 													// moving initial pointer to next word.
 			}
 		}
-
-		// removing Extra Space
-		String finalOutput = ans.trim();
-
-		System.out.println(finalOutput);
+		
+		
+		System.out.println(ans.toString());
 
 	}
 }
