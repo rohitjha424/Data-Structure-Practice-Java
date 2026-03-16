@@ -22,12 +22,35 @@ public class Q6ReverseString {
 		
 		//1) applying Backtracking of String 
 		
-		String reversed = "";
+//		String reversed = "";
+//		
+//		for(int i = s.length()-1; i>=0; i-- ) {
+//			reversed = reversed+ s.charAt(i);
+//		}
+//		System.out.println(reversed); // will print : "scisyhp"
 		
-		for(int i = s.length()-1; i>=0; i-- ) {
-			reversed = reversed+ s.charAt(i);
+//		
+		//2) using 2 pointers Approach 
+		
+		//here we will use char[] array to swap the first and last chars of string 
+		char[] charArray = s.toCharArray();
+		
+		int i = 0;
+		int j = charArray.length-1;
+		
+		while (i<j) {
+			
+			char temp = charArray[i];
+			charArray[i] = charArray[j];
+			charArray[j]= temp;
+			
+			i++;
+			j--;
 		}
-		System.out.println(reversed); // will print : "scisyhp"
+		String reversedString = new String(charArray);
+		System.out.println(reversedString);
+		
+		
 		
 
 	}
