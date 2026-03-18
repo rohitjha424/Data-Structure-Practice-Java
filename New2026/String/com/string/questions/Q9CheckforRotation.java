@@ -14,14 +14,25 @@ package com.string.questions;
 public class Q9CheckforRotation {
 	
 	//checkIfRotation
-	public static boolean checkIfRotation(String str) {
-		return true;
+	public static boolean checkIfRotation(String str1, String str2) {
+		
+		for(int i =0; i <str1.length(); i++) {
+			if(str1.equals(str2)) {
+				return true;
+			}
+			char last = str1.charAt(str1.length()-1);
+			str1 = last + str1.substring(0, str1.length()-1);
+			System.out.println(str1);
+		}
+		
+		return false;
 	}
 	
 	public static void main(String[] args) {
-		String str = "abcd";
+		String str1 = "abcd";
+		String str2 = "cdab";
 		
-		checkIfRotation(str);
+		System.out.println(checkIfRotation(str1, str2));
 		
 	}
 
