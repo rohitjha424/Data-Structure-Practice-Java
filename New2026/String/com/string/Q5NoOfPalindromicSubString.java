@@ -2,7 +2,7 @@ package com.string;
 
 import java.util.*;
 
-public class Q5PalindromicString {
+public class Q5NoOfPalindromicSubString {
 	// method to check ifPalindrome
 	public static boolean isPalindrome(String s) {
 		int i = 0;
