@@ -4,22 +4,19 @@ package com.string;
 
 public class Q1SubString {
 
+	public static void main(String[] args) {
+		String s = "physics";
 
-		public static void main(String[] args) {
-			String s = "physics";
-			
-			for(int j = 2; j<4; j++) {
-				System.out.print(s.substring(j));
-			}
-			
-			
-			
-		
+		for (int j = 2; j < 4; j++) {
+			System.out.print(s.substring(j));
+		}
+
 	}
 }
 
-/* O/P:
- 
-ysicssics
-
-*/
+/*
+ * O/P:
+ * 
+ * ysicssics
+ * 
+ */
