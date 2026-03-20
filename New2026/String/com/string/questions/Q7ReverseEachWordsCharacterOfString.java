@@ -6,7 +6,7 @@ Example :
 
 package com.string.questions;
 
-public class Q7ReverseEachWordOfString {
+public class Q7ReverseEachWordsCharacterOfString {
 
 	public static void main(String[] args) {
 
