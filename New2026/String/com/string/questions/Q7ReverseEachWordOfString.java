@@ -1,4 +1,4 @@
-/*Q7 : Reverse Each word of a String
+/*Q7 : Reverse Each word characters of a String
 Example :
 	input: "I am an Engineer"
 	output: "I ma na reenignE"
@@ -12,7 +12,7 @@ public class Q7ReverseEachWordOfString {
 
 		String str = "I am an Engineer";
 
-		// Approach >> take one word at a time store in SStringBuilder and reverse it and Store in ans.
+		// Approach >> take one word at a time store in StringBuilder and reverse it and Store in ans.
 
 		// keeping ans String builder empty
 		StringBuilder ans = new StringBuilder();
